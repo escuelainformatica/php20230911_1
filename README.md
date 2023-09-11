@@ -49,3 +49,13 @@ Route::any('/formulario',[ProductoController::class,'formulario']);
     }
 ```
 
+# Ejercicio 1
+
+* Cree un proyecto nuevo de Laravel
+* Vamos a crear un controlador LibroController y un modelo Libro con los siguientes campos
+    * Libro: autor,precio,editorial
+* Vamos a crear una vista de estilo plantilla para poderla extender. En la vista vamos a usar bootstrap
+* Vamos a crear un vista de formulario para agregar el libro, esta vista tiene que extender la plantilla
+* En el controlador, cree dos metodos, uno para get y otro para post (similares a los de este ejemplo)    
+* En la ruta (web.php), vamos a crear los enrutamientos necesarios.
+
